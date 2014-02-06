@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7E3C2618A3A9E900D26E12 /* MQTTDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E3C0318A3A9E900D26E12 /* MQTTDecoder.m */; };
+		EA7E3C2718A3A9E900D26E12 /* MQTTEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E3C0518A3A9E900D26E12 /* MQTTEncoder.m */; };
+		EA7E3C2818A3A9E900D26E12 /* MQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E3C0718A3A9E900D26E12 /* MQTTMessage.m */; };
+		EA7E3C3118A3A9E900D26E12 /* MQTTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E3C2318A3A9E900D26E12 /* MQTTSession.m */; };
+		EA7E3C3218A3A9E900D26E12 /* MQttTxFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E3C2518A3A9E900D26E12 /* MQttTxFlow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7E3BC818A3A8C900D26E12 /* PWMqttIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PWMqttIO.app; path = "/Users/markbranion/Desktop/Sandbox/PWMqttIO/build/Debug-iphoneos/PWMqttIO.app"; sourceTree = "<absolute>"; };
+		EA7E3BCB18A3A8C900D26E12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA7E3BCD18A3A8C900D26E12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA7E3BCF18A3A8C900D26E12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA7E3BEA18A3A8C900D26E12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA7E3C0218A3A9E900D26E12 /* MQTTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTDecoder.h; sourceTree = "<group>"; };
+		EA7E3C0318A3A9E900D26E12 /* MQTTDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTDecoder.m; sourceTree = "<group>"; };
+		EA7E3C0418A3A9E900D26E12 /* MQTTEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTEncoder.h; sourceTree = "<group>"; };
+		EA7E3C0518A3A9E900D26E12 /* MQTTEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTEncoder.m; sourceTree = "<group>"; };
+		EA7E3C0618A3A9E900D26E12 /* MQTTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTMessage.h; sourceTree = "<group>"; };
+		EA7E3C0718A3A9E900D26E12 /* MQTTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTMessage.m; sourceTree = "<group>"; };
+		EA7E3C2218A3A9E900D26E12 /* MQTTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSession.h; sourceTree = "<group>"; };
+		EA7E3C2318A3A9E900D26E12 /* MQTTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSession.m; sourceTree = "<group>"; };
+		EA7E3C2418A3A9E900D26E12 /* MQttTxFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQttTxFlow.h; sourceTree = "<group>"; };
+		EA7E3C2518A3A9E900D26E12 /* MQttTxFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQttTxFlow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7E3BC518A3A8C900D26E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7E3BBF18A3A8C900D26E12 = {
+			isa = PBXGroup;
+			children = (
+				EA7E3C0018A3A9E900D26E12 /* src */,
+				EA7E3BCA18A3A8C900D26E12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7E3BCA18A3A8C900D26E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E3BCB18A3A8C900D26E12 /* Foundation.framework */,
+				EA7E3BCD18A3A8C900D26E12 /* CoreGraphics.framework */,
+				EA7E3BCF18A3A8C900D26E12 /* UIKit.framework */,
+				EA7E3BEA18A3A8C900D26E12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7E3C0018A3A9E900D26E12 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E3C0118A3A9E900D26E12 /* MqttSDK */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EA7E3C0118A3A9E900D26E12 /* MqttSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E3C0218A3A9E900D26E12 /* MQTTDecoder.h */,
+				EA7E3C0318A3A9E900D26E12 /* MQTTDecoder.m */,
+				EA7E3C0418A3A9E900D26E12 /* MQTTEncoder.h */,
+				EA7E3C0518A3A9E900D26E12 /* MQTTEncoder.m */,
+				EA7E3C0618A3A9E900D26E12 /* MQTTMessage.h */,
+				EA7E3C0718A3A9E900D26E12 /* MQTTMessage.m */,
+				EA7E3C2218A3A9E900D26E12 /* MQTTSession.h */,
+				EA7E3C2318A3A9E900D26E12 /* MQTTSession.m */,
+				EA7E3C2418A3A9E900D26E12 /* MQttTxFlow.h */,
+				EA7E3C2518A3A9E900D26E12 /* MQttTxFlow.m */,
+			);
+			path = MqttSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7E3BC718A3A8C900D26E12 /* PWMqttIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7E3BFA18A3A8C900D26E12 /* Build configuration list for PBXNativeTarget "PWMqttIO" */;
+			buildPhases = (
+				EA7E3BC418A3A8C900D26E12 /* Sources */,
+				EA7E3BC518A3A8C900D26E12 /* Frameworks */,
+				EA7E3BC618A3A8C900D26E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWMqttIO;
+			productName = PWMqttIO;
+			productReference = EA7E3BC818A3A8C900D26E12 /* PWMqttIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7E3BC018A3A8C900D26E12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = pocketworks;
+			};
+			buildConfigurationList = EA7E3BC318A3A8C900D26E12 /* Build configuration list for PBXProject "PWMqttIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7E3BBF18A3A8C900D26E12;
+			productRefGroup = EA7E3BBF18A3A8C900D26E12;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7E3BC718A3A8C900D26E12 /* PWMqttIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7E3BC618A3A8C900D26E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7E3BC418A3A8C900D26E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7E3C3218A3A9E900D26E12 /* MQttTxFlow.m in Sources */,
+				EA7E3C2618A3A9E900D26E12 /* MQTTDecoder.m in Sources */,
+				EA7E3C2718A3A9E900D26E12 /* MQTTEncoder.m in Sources */,
+				EA7E3C2818A3A9E900D26E12 /* MQTTMessage.m in Sources */,
+				EA7E3C3118A3A9E900D26E12 /* MQTTSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA7E3BF818A3A8C900D26E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA7E3BF918A3A8C900D26E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7E3BFB18A3A8C900D26E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWMqttIO/PWMqttIO-Prefix.pch";
+				INFOPLIST_FILE = "PWMqttIO/PWMqttIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA7E3BFC18A3A8C900D26E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWMqttIO/PWMqttIO-Prefix.pch";
+				INFOPLIST_FILE = "PWMqttIO/PWMqttIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7E3BC318A3A8C900D26E12 /* Build configuration list for PBXProject "PWMqttIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7E3BF818A3A8C900D26E12 /* Debug */,
+				EA7E3BF918A3A8C900D26E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7E3BFA18A3A8C900D26E12 /* Build configuration list for PBXNativeTarget "PWMqttIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7E3BFB18A3A8C900D26E12 /* Debug */,
+				EA7E3BFC18A3A8C900D26E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7E3BC018A3A8C900D26E12 /* Project object */;
+}
